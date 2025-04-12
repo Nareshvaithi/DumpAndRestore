@@ -10,19 +10,12 @@ import (
 )
 
 func main(){
-	enableCmd := exec.Command("mysql", "-u", "root", "-p", "-e", "SET GLOBAL local_infile = 1;")
-	_, err := enableCmd.CombinedOutput()
-	if err != nil {
-		log.Fatalf("Failed to enable local_infile: %s", err)
-	}
 
-	
+
 	fmt.Print("Press (B) Backup or Press (R) Restore: ")
 	reader := bufio.NewReader(os.Stdin)
 	BackupOrRestore,_ :=reader.ReadString('\n')
 	BackupOrRestore = strings.TrimSpace(BackupOrRestore)
-
-
 
 	if BackupOrRestore == "B"{
 		fmt.Print("Enter user (default: root): ")

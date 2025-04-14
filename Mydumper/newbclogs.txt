@@ -1,0 +1,27 @@
+2025-04-14 06:34:38 [INFO] - Server version reported as: 8.0.41-0ubuntu0.22.04.1
+2025-04-14 06:34:38 [INFO] - Connected to a MySQL server
+2025-04-14 06:34:38 [INFO] - Disabling Percona Backup Locks for Percona Server 8
+2025-04-14 06:34:38 [INFO] - Started dump at: 2025-04-14 06:34:38
+
+2025-04-14 06:34:38 [INFO] - Written master status
+2025-04-14 06:34:38 [INFO] - Thread 1 connected using MySQL connection ID 127
+2025-04-14 06:34:38 [INFO] - Thread 2 connected using MySQL connection ID 128
+2025-04-14 06:34:38 [INFO] - Thread 3 connected using MySQL connection ID 129
+2025-04-14 06:34:38 [INFO] - Thread 4 connected using MySQL connection ID 130
+2025-04-14 06:34:38 [INFO] - Thread 1 dumping db information for `sample`
+2025-04-14 06:34:38 [INFO] - Thread 2 dumping schema create for `sample`
+2025-04-14 06:34:38 [INFO] - Non-InnoDB dump complete, unlocking tables
+2025-04-14 06:34:38 [INFO] - Thread 3 dumping data for `sample`.`employees`
+2025-04-14 06:34:38 [INFO] - Thread 4 dumping schema for `sample`.`employees`
+2025-04-14 06:34:38 [INFO] - Thread 2 shutting down
+2025-04-14 06:34:38 [INFO] - Thread 4 shutting down
+2025-04-14 06:34:38 [INFO] - Thread 1 shutting down
+2025-04-14 06:34:38 [INFO] - Empty table sample.employees
+2025-04-14 06:34:38 [INFO] - Thread 3 shutting down
+2025-04-14 06:34:38 [INFO] - Finished dump at: 2025-04-14 06:34:38
+
+2025-04-14 07:34:39 [ERROR] - cannot open directory /home/mydbops/newBackup/1, Error opening directory “/home/mydbops/newBackup/1”: No such file or directory
+
+2025-04-14 07:34:39 [INFO] - Server version reported as: 8.0.41-0ubuntu0.22.04.1
+2025-04-14 07:34:39 [INFO] - Connected to a MySQL server
+2025-04-14 07:34:39 [ERROR] - Couldn't write metadata file (2)

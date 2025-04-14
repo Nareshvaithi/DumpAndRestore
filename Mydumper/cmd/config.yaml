@@ -1,0 +1,10 @@
+user: naresh
+host: localhost
+ask-password: true
+database: sample
+outputdir: /home/mydbops/newBackup
+verbose: 3
+compress: true
+logfile: /home/mydbops/development/DumpAndRestore/Mydumper/newbclogs.txt
+daemon: true
+tz-utc: true
